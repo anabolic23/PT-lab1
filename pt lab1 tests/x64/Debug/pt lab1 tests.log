@@ -1,3 +1,4 @@
-﻿  pt lab1 tests.cpp
-     Создается библиотека C:\Users\User\source\repos\pt lab1\x64\Debug\pt lab1 tests.lib и объект C:\Users\User\source\repos\pt lab1\x64\Debug\pt lab1 tests.exp
-  pt lab1 tests.vcxproj -> C:\Users\User\source\repos\pt lab1\x64\Debug\pt lab1 tests.dll
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (pt lab1 tests.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  pt_lab1_tests.cpp
+     Создается библиотека C:\Users\User\source\repos\pt lab1\x64\Debug\pt_lab1_tests.lib и объект C:\Users\User\source\repos\pt lab1\x64\Debug\pt_lab1_tests.exp
+  pt lab1 tests.vcxproj -> C:\Users\User\source\repos\pt lab1\x64\Debug\pt_lab1_tests.dll
