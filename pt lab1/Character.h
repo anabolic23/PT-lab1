@@ -6,5 +6,5 @@
 class Character {
 public:
     virtual ~Character() {};
-    virtual string displayInfo() = 0;
+    virtual std::string displayInfo() = 0;
 };

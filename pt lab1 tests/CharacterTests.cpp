@@ -32,5 +32,6 @@ namespace ptlab1tests
 			Assert::AreEqual(std::string("Wizard character"), result);
 		}
 
-	};	
+	};
+	
 }

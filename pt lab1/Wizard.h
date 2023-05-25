@@ -5,7 +5,7 @@
 // Конкретні класи персонажів
 class Wizard : public Character {
 public:
-    string displayInfo() override {
+    std::string displayInfo() override {
         return "Wizard character";
     }
 };

@@ -9,7 +9,7 @@
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace ptlab1test1
+namespace ptlab1tests
 {
 	TEST_CLASS(CharacterCreatorTests)
 	{
@@ -65,4 +65,3 @@ namespace ptlab1test1
 
 	};
 }
-
