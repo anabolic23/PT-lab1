@@ -9,37 +9,14 @@
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace ptlab1tests
+namespace ptlab1test1
 {
-	TEST_CLASS(CharacterTests)
-	{
-	public:
-		TEST_METHOD(Warrior_DisplayInfo_ReturnsCorrectString)
-		{
-			Warrior warrior;
-
-			std::string result = warrior.displayInfo();
-
-			Assert::AreEqual(std::string("Warrior character"), result);
-		}
-
-		TEST_METHOD(Wizard_DisplayInfo_ReturnsCorrectString)
-		{
-			Wizard wizard;
-
-			std::string result = wizard.displayInfo();
-
-			Assert::AreEqual(std::string("Wizard character"), result);
-		}
-
-	};
-
 	TEST_CLASS(CharacterCreatorTests)
 	{
 	public:
-		
+
 		TEST_METHOD(CharacterCreator_CreateCharacter_ReturnsNotNull_forWarrior)
-		{		
+		{
 			CharacterCreator* creator = new WarriorCreator();
 
 			Character* character = creator->createCharacter();
@@ -88,3 +65,4 @@ namespace ptlab1tests
 
 	};
 }
+

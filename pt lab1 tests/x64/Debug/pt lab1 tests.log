@@ -1,4 +1,24 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (pt lab1 tests.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  pt_lab1_tests.cpp
-     Создается библиотека C:\Users\User\source\repos\pt lab1\x64\Debug\pt_lab1_tests.lib и объект C:\Users\User\source\repos\pt lab1\x64\Debug\pt_lab1_tests.exp
-  pt lab1 tests.vcxproj -> C:\Users\User\source\repos\pt lab1\x64\Debug\pt_lab1_tests.dll
+  CharacterTests.cpp
+C:\Users\User\source\repos\pt lab1\pt lab1\Character.h(9,20): error C3646: displayInfo: неизвестный спецификатор переопределения
+C:\Users\User\source\repos\pt lab1\pt lab1\Character.h(9,32): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\pt lab1\pt lab1\Character.h(9,37): error C2238: непредвиденные лексемы перед ";"
+C:\Users\User\source\repos\pt lab1\pt lab1\Warrior.h(8,17): error C3668: Warrior::displayInfo: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\User\source\repos\pt lab1\pt lab1\Wizard.h(8,12): error C3646: displayInfo: неизвестный спецификатор переопределения
+C:\Users\User\source\repos\pt lab1\pt lab1\Wizard.h(8,23): error C2059: синтаксическая ошибка: (
+C:\Users\User\source\repos\pt lab1\pt lab1\Wizard.h(8,35): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+C:\Users\User\source\repos\pt lab1\pt lab1 tests\CharacterTests.cpp(30,32): error C2039: "displayInfo": не является членом "Wizard".
+C:\Users\User\source\repos\pt lab1\pt lab1\Wizard.h(6,7): message : см. объявление "Wizard"
+  CharacterCreatorTest.cpp
+C:\Users\User\source\repos\pt lab1\pt lab1\Character.h(9,20): error C3646: displayInfo: неизвестный спецификатор переопределения
+C:\Users\User\source\repos\pt lab1\pt lab1\Character.h(9,32): error C2059: синтаксическая ошибка: )
+C:\Users\User\source\repos\pt lab1\pt lab1\Character.h(9,37): error C2238: непредвиденные лексемы перед ";"
+C:\Users\User\source\repos\pt lab1\pt lab1\Warrior.h(8,17): error C3668: Warrior::displayInfo: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+C:\Users\User\source\repos\pt lab1\pt lab1\Wizard.h(8,12): error C3646: displayInfo: неизвестный спецификатор переопределения
+C:\Users\User\source\repos\pt lab1\pt lab1\Wizard.h(8,23): error C2059: синтаксическая ошибка: (
+C:\Users\User\source\repos\pt lab1\pt lab1\Wizard.h(8,35): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+C:\Users\User\source\repos\pt lab1\pt lab1 tests\CharacterCreatorTest.cpp(42,36): error C2039: "displayInfo": не является членом "Character".
+C:\Users\User\source\repos\pt lab1\pt lab1\Character.h(6,7): message : см. объявление "Character"
+C:\Users\User\source\repos\pt lab1\pt lab1 tests\CharacterCreatorTest.cpp(57,36): error C2039: "displayInfo": не является членом "Character".
+C:\Users\User\source\repos\pt lab1\pt lab1\Character.h(6,7): message : см. объявление "Character"
+  Создание кода...
